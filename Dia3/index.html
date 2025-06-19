@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+  <form action="" method="POST">
+
+    <!-- Nombre -->
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" maxlength="50" required><br><br>
+
+    <!-- Apellidos -->
+    <label for="apellidos">Apellidos:</label><br>
+    <input type="text" id="apellidos" name="apellidos" maxlength="50" required><br><br>
+
+    <!-- Sexo -->
+    <label>Sexo:</label><br>
+    <input type="radio" id="hombre" name="sexo" value="hombre" required>
+    <label for="hombre">Hombre</label><br>
+    <input type="radio" id="mujer" name="sexo" value="mujer" required>
+    <label for="mujer">Mujer</label><br><br>
+
+    <!-- Correo electrónico -->
+    <label for="correo">Correo electrónico:</label><br>
+    <input type="email" id="correo" name="correo" required><br><br>
+
+    <!-- Población -->
+    <label for="poblacion">Población:</label><br>
+    <select id="poblacion" name="poblacion" required>
+      <option value="">--Seleccione--</option>
+      <option value="Bucaramanga">Bucaramanga</option>
+      <option value="Giron">Girón</option>
+      <option value="Floridablanca">Floridablanca</option>
+      <option value="Piedecuesta">Piedecuesta</option>
+    </select><br><br>
+
+    <!-- Descripción -->
+    <label for="descripcion">Descripción:</label><br>
+    <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Casillas de verificación -->
+    <input type="checkbox" id="info" name="info" checked>
+    <label for="info">Deseo recibir información sobre novedades y ofertas</label><br>
+
+    <input type="checkbox" id="condiciones" name="condiciones" required>
+    <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa <br>
+         y la normativa sobre protección de datos</label><br><br>
+
+    <!-- Botón de envío -->
+    <button type="submit">Enviar</button>
+
+  </form>
+
+</body>
+</html>
