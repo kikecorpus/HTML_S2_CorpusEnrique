@@ -1,16 +1,90 @@
+<!-- Hoja de vida -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hoja de Vida</title>
+    <!--importacion de css-->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>¿Que es HTTP?</h1>
-    <img src="./img/images.jpeg" alt="Imagen no encontrada">
-    <p> HTTP son las siglas de  <strong>Hypertext Transfer Protocol</strong>, es decir, <em>Protocolo de Transferencia de Hipertexto.</em></p>
-    <button style=""> <a style="text-decoration: none;" href="https://www.ionos.com/es-us/digitalguide/hosting/cuestiones-tecnicas/protocolo-http/"> Ver más </a> </button>
+    <table>
+        <!--Primera fila-->
+        <tr>
+            <!--primera celda, imagen-->
+            <th>
+                <img id="fotoperfil" src="./img/foto de hv.jpg" alt="no se encontro la foto ">
+            </th>
+            <!--segunda cel, informacion academica-->
+            <td>
+                <h3> Informacion Academica</h3>
+                <br><strong>Basica Primaria:</strong> Institucion Educativa John F Kennedy
+                <br> <strong>Secundaria:</strong> Institucion Educativa John F Kennedy
+                <br><strong>Pregrado:</strong> Licenciado en Educacion Fisica Recreacion y deportes - Universidad de Pamplona
+                <br><strong>Cursos:</strong> Instructor de Yoga
+            </td>
+
+            <!--tercera celda, proyectos, contacto -->
+            <td rowspan="3">
+                <!-- proyectos personales-->
+                <h3> Proyectos personales</h3>
+                <p>calculadora
+                <br> convertidor de temperatura celsius y farenheit
+                </p>
+
+                <br>
+                <br>
+                <!-- proyectos Empresariales-->
+
+                <h3>Proyectos Empresariales</h3>
+                 <p>strongSimulador de Gastos
+                <br> Diario de Viajes
+                </p>
+                <br>
+                <br>
+            
+                <!-- contacto-->
+                <h3>Contacto</h3>
+                <p><strong>Nombre:</strong> Enrique Corpus 
+                <br><strong>Email:</strong> Enrique.corpus.5004@hotmail.com
+                <br><strong>Telefono:</strong> 3105261024
+                </p>
+        </td>
+
+
+        </tr>
+
+        <!-- segunda fila-->
+        <tr>
+            <!-- primera celda, informacion personal-->
+            <td>
+                <h3> Informacion Personal</h3>
+                <p> <strong>Nombre:</strong> Enrique Carlos Corpus Bejarano
+                <br><strong>Direccion:</strong> Bucaramanga, Santander
+                <br><strong>Email:</strong> enrique.corpus.5004@hotmail.com
+                <br><strong>Link Git:</strong> <a href="https://github.com/kikecorpus">https://github.com/kikecorpus</a>
+                <br><strong>Lin Link:</strong> <a href="https://www.linkedin.com/in/enrique-corpus-9a1b9a329/">https://www.linkedin.com/in/enrique-corpus-9a1b9a329/</a>
+                </p>
+            </td>
+            <!-- segunda celda, habilidades-->
+            <td rowspan="2">
+                <h3>Habilidades</h3>
+                <p>Photoshop
+                <br> Ilustrator
+                <br> Creacion de Paginas web
+                </p>
+            </td>
+        </tr>
+
+        <!-- tercera fila, cedula-->
+        <tr>
+            <td> <img id="cedula" src="./img/cedula.png" alt=""> </td>
+        </tr>
+    </table>
 </body>
+
 </html>
-
-
