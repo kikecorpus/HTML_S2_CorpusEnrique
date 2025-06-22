@@ -1,0 +1,34 @@
+
+html { 
+    background-color: var(--color-fondo);
+    background-image: url('../img/FondoTwitch/FondoTwitch.png'), url('../img/FondoTwitch/Path\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 1rem 2rem;
+}   
+
+#S1 { 
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--fuente-titulo);
+  font-size: 60px;
+  color: white;
+}
+
+p {
+  font-family: var(--fuente-cuerpo);
+  color: white;
+}
+
+#parrafoS1 {
+  font-size: 30px;
+  text-align: center;
+}
