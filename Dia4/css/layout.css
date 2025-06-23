@@ -1,21 +1,26 @@
-/** dom* **/
-html, body {
-  width: 1920px;
-  height: 100%;
-}
+/** documento para la estructura **/
 
+/** Dom **/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
 
 body {
     background-color: var(--color-fondo);
     background-image: url('../img/FondoTwitch/FondoTwitch.png'), url('../img/FondoTwitch/Path\ 1.png');
     background-repeat: no-repeat;
-    background-size: 1920px 1080px, 1918.33 4149px;
-    margin: 0
+    background-size: 1920px 1080px, 1920px 4149px;
+    margin: 0px;
+    background-position: top left, top left;
 }
 
 .contenedorDeLaPagina{
   width: 1920px;
-  margin: 0 auto;
+  height:4149px;
 }
 
 /** Section 1 **/
@@ -29,6 +34,12 @@ header {
 
 #S1 { 
   text-align: center;
+  margin-top: 50px;
+}
+
+#LogoPrimeE2 {
+  position: relative;
+  top: 90px
 }
 
 h2 {
@@ -52,13 +63,17 @@ p {
 .contenedorAzul{
   background-color: var(--color-principal);
   border-radius: 108px;
-  margin: 40px auto;
+  margin: 40px 64px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+}
+
+#S2 { 
+  position: relative;
+  margin-top: 300px;
 }
 
 #contendorS2 {
@@ -86,6 +101,10 @@ p {
   height: 724px;
 }
 
+.movies {
+  cursor: pointer;
+}
+
 /** seccion 5 **/
 
 #S5 { 
@@ -101,26 +120,47 @@ p {
 #imgsS5 {
   display: flex;
   flex-direction: row;
-  justify-content: center;  /* centra horizontalmente */
-  align-items: center;      /* alinea verticalmente */
+  justify-content: center; 
+  align-items: center;      
   gap: 2rem;   
 }
-#flechaInvertida {
+#flechaRight {
   transform: scaleX(-1);
+  cursor: pointer;
+}
+
+#flechaLeft{
+  cursor: pointer;
 }
 
 footer {
+  margin-top: 50px;
+}
+footer ul {
   display: flex;
-  flex-direction: row;
-   display: flex;
   justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   
-  width: 100%;
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
   font-size: 25px;
   font-family: var(--fuente-cuerpo);
-  gap: 2rem;
+  
 }
+
+
+
+/** opcional para debug  **/
+
+/**
+* {
+  box-sizing: border-box;
+  outline: 1px solid rgba(255, 0, 0, 0.2); 
+}
+  **/

@@ -1,3 +1,6 @@
+/** Documento para importar todos los archivos css (este es el que se conecta al html **/
+/** Nota: Es importante guardar el orden para su funcionamiento, **/
+
 @import url('fonts.css');
 @import url('variable.css');
 @import url('layout.css');
