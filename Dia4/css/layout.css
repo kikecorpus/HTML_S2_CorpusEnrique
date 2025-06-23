@@ -63,7 +63,7 @@ p {
 .contenedorAzul{
   background-color: var(--color-principal);
   border-radius: 108px;
-  margin: 40px 64px;
+  margin: 0px 64px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ p {
 
 #S2 { 
   position: relative;
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 #contendorS2 {
@@ -91,6 +91,11 @@ p {
 }
 
 /** seccion 3 **/
+
+#S3 {
+  margin-top: 44px;
+}
+
 #contendorS3 {
   width: 1792px;
   height: 724px;
@@ -103,6 +108,10 @@ p {
 
 .movies {
   cursor: pointer;
+}
+
+#S4 {
+  margin-top: 26px;
 }
 
 /** seccion 5 **/
@@ -134,7 +143,7 @@ p {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 90px;
 }
 footer ul {
   display: flex;
