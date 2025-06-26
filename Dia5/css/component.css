@@ -24,3 +24,9 @@ button img {
     height: 29px;
     margin: 0;
 }
+
+#linea {
+    position: relative ;
+    left: 597px;
+    top: 20px
+}
