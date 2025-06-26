@@ -27,6 +27,8 @@ button img {
 
 #linea {
     position: relative ;
-    left: 597px;
-    top: 20px
+    left: 640px;
+    top: 20px;
+    z-index: 10;
+    width: 146px;
 }

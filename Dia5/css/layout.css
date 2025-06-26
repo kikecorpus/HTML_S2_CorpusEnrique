@@ -1,7 +1,7 @@
 /** DOM **/
 
 html, body {
-    width: 1400px;
+    width: 100%px;
     height: 800px;
     margin: 0;
 }
@@ -9,11 +9,9 @@ html, body {
 body{
     display: flex;
     flex-direction: row;
+   
 }
 
-main {
-    overflow-x: hidden;
-}
 .contenedorDePagina { 
     display: flex;
     flex-direction: column;
@@ -113,7 +111,7 @@ aside {
   align-items: center;
 
   background-color: #212020;
-  width: 110px;
+  width: 100px;
   height: 800px;
   padding: 20px 0;
 }
@@ -148,7 +146,7 @@ span {
     gap: 200px;
     align-items: center;
     position: relative;
-    top: 50px;
+    bottom: 50px;
     left: 100px;
     overflow-x: hidden;
 }
