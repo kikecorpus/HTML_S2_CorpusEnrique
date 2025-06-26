@@ -1,0 +1,152 @@
+/** DOM **/
+
+html, body {
+    width: 1400px;
+    height: 800px;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    overflow-x: hidden;
+}
+.contenedorDePagina { 
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: 'open sans semibold';
+    font-size: 40px;
+}
+
+p {
+    font-size: 27px;
+    font-family: 'open sans semibold';
+
+}
+/**footer**/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 42px;
+    padding-left: 43px;
+    padding-right: 33px;
+
+    width: 1290px;
+ 
+
+    font-family: 'open sans regular';
+    font-size: 30px;
+}
+
+#logoH { 
+    display: flex;
+    width: 196px;
+    height: 44px;
+
+}
+
+#carrito {
+    width: 33px;
+    height: 31.5px;
+}
+
+#lupa {
+    width: 27px;
+    height: 27.1px;
+}
+
+nav {
+    position: relative;
+    left: 150px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  display: flex;
+  align-content: center;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/**Main**/
+
+main { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+
+#tarjeta {
+position: relative;
+left:50px; 
+width: 884px;
+height: 497px;
+
+}
+
+
+/**Side bar **/
+aside { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #212020;
+  width: 110px;
+  height: 800px;
+  padding: 20px 0;
+}
+
+aside img {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+}
+
+aside p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+#cantidad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+    color: gray;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+    gap: 200px;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    overflow-x: hidden;
+}

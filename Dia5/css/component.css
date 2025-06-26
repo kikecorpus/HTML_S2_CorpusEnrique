@@ -1,0 +1,26 @@
+
+/** Section **/
+
+button{
+    width: 160px;
+    height: 114px;
+    padding: 29px 15px 8px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    left: 30px;
+
+    cursor: pointer;
+    background-color: #D5FF43;
+    color: #000000;
+    font-family: 'open sans semibold';
+    font-size: 26px;
+}
+
+button img {
+    width: 129px;
+    height: 29px;
+    margin: 0;
+}
