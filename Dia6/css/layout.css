@@ -1,0 +1,102 @@
+
+/** DOM **/
+html, body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+
+
+}
+
+
+.contenedorDePagina {
+    background-color: var(--color-fondo);
+    width: 100vw;
+ 
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+   
+}
+
+
+/** header**/
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+
+    color: var(--color-texto);
+    font-size: 2vw;
+
+    width: 100vw;
+    height: 4vw;
+}
+
+ header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+/** Section Inicio**/
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('../img/Images/pexels-nao-triponez-129207.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100vw;
+    height:100vh;
+}
+
+.contInicio {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 55vh;
+
+    display: flex;
+    flex-direction: column;
+
+
+    padding-top: 15vh;
+
+}
+
+.contInicio h2 {
+    font-size: 4vw;
+    color: var(--color-texto);
+    margin: 0;
+}
+
+
+
+/** Section About**/
+
+/** Section About 2 **/
+
+/**Section Products **/
+
+/** Section Contacs**/
+
+/** Section Footer**/
