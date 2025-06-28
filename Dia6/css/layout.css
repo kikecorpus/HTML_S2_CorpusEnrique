@@ -1,19 +1,21 @@
 
 /** DOM **/
+
+*{
+    color: var(--color-texto);
+}
+
 html, body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     width: 100vw;
-
-
 }
 
 
 .contenedorDePagina {
     background-color: var(--color-fondo);
     width: 100vw;
- 
 
     display: flex;
     flex-direction: column;
@@ -26,7 +28,6 @@ main {
     width: 100vw;
    
 }
-
 
 /** header**/
 
@@ -89,14 +90,68 @@ header {
     margin: 0;
 }
 
-
-
 /** Section About**/
+.about{
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+}
+
+.about img {
+    width: 40vw;
+}
+
+.about h2 { 
+    margin: 0;
+    font-size: 4vw;
+}
+
+.about p {
+    font-size: 1vw;
+}
 
 /** Section About 2 **/
+.about2{
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+}
+
+.about2 img {
+    width: 40vw;
+}
+
+.about2 h2 { 
+    margin: 0;
+    font-size: 4vw;
+}
+
+.about2 p {
+    font-size: 1vw;
+}
+
+
+img { 
+    width: 200px;
+}
 
 /**Section Products **/
 
 /** Section Contacs**/
 
 /** Section Footer**/
+
+* {
+  box-sizing: border-box;
+  outline: 1px solid rgba(255, 0, 0, 0.2); 
+}

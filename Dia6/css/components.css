@@ -1,11 +1,12 @@
 
 /** Section Inicio**/
 
-.botonS1 {
+button {
     padding: 0.8rem 2rem;
     font-size: 1.2rem;
     cursor: pointer;
     background-color: var(--color-principal);
+    color: var(--color-fondo);
 }
 
 
