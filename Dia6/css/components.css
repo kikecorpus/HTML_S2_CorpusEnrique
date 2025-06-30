@@ -10,6 +10,20 @@ button {
 }
 
 
+/** Section Products**/
+
+.cuadros button {
+
+    width: 9vw;
+    height: 2vw;
+
+    font-size: 0.9vw;
+    padding: 0;
+
+    position: relative;
+    margin-top:6vh;
+}
+
 /** Section About**/
 
 /** Section About 2 **/

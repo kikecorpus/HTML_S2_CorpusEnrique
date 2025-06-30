@@ -4,14 +4,13 @@
 *{
     color: var(--color-texto);
 }
-
+ 
 html, body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     width: 100vw;
 }
-
 
 .contenedorDePagina {
     background-color: var(--color-fondo);
@@ -21,12 +20,10 @@ html, body {
     flex-direction: column;
 }
 
-
 main {
     display: flex;
     flex-direction: column;
     width: 100vw;
-   
 }
 
 /** header**/
@@ -41,7 +38,7 @@ header {
 
     color: var(--color-texto);
     font-size: 2vw;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 4vw;
 }
@@ -50,6 +47,11 @@ header {
     display: flex;
     list-style: none;
     gap: 2rem;
+ }
+
+ nav ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-principal) ;
 }
 
 /** Section Inicio**/
@@ -79,9 +81,7 @@ header {
     display: flex;
     flex-direction: column;
 
-
     padding-top: 15vh;
-
 }
 
 .contInicio h2 {
@@ -94,12 +94,24 @@ header {
 .about{
     height: 100vh;
     width: 100vw;
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 20vw;
+}
+
+.lineTitulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    width: 8vw;
+    position: relative;
+    right: 18rem;
+    top: 4vh;
 }
 
 .about img {
@@ -115,7 +127,9 @@ header {
     font-size: 1vw;
 }
 
+
 /** Section About 2 **/
+
 .about2{
     height: 100vh;
     width: 100vw;
@@ -141,17 +155,91 @@ header {
 }
 
 
-img { 
-    width: 200px;
-}
-
 /**Section Products **/
 
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20vh;
+    gap: 6vw;   
+}
+
+.product h2 {
+    font-size: 4vw;
+    position: relative;
+    right: 3vw;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.products1, .products2, .products3 {
+    border: 3px solid goldenrod;
+    width: 20vw;
+    height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    position: relative;
+}
+
+.cuadros img { 
+    width: 5vw;
+    height: 7vh;
+    position: relative;
+    bottom: 4vh;
+}
+
+.cuadros ul {
+    list-style: none;
+    padding-right: 2vw;
+    padding-top: 2vw;
+}
+
+.lineCenter {
+    width: 40vw;
+    border-color: var(--color-principal);
+}
 /** Section Contacs**/
+
+.contact { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.contact div { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.contact h3 {
+    font-size: 3vw;   
+    margin: 0;
+    padding: 0;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact span {
+    color: var(--color-principal);
+}
 
 /** Section Footer**/
 
-* {
-  box-sizing: border-box;
-  outline: 1px solid rgba(255, 0, 0, 0.2); 
+footer {
+    text-align: center;
+    margin-top: 15vh;
+}
+footer span {
+    color: var(--color-principal);
 }
